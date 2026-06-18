@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NetGames</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Ícones de redes sociais (Font Awesome CDN gratuito) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== CABEÇALHO / MENU ========== -->
+  <header class="header" id="topo">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#topo" class="logo">
+        <span class="logo-net">Net</span><span class="logo-games">Games</span>
+      </a>
+
+      <!-- Botão hamburguer (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Menu de Navegação -->
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#topo">Início</a></li>
+          <li><a href="#jogos">Jogos</a></li>
+          <li><a href="#qrcode">Celular</a></li>
+          <li><a href="#sugestoes">Sugestões</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ========== BANNER PRINCIPAL ========== -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Bem-vindo ao universo</p>
+      <h1 class="hero-title">
+        <span class="net">Net</span><span class="games">Games</span>
+      </h1>
+      <p class="hero-sub">Os melhores jogos em um só lugar. Sem instalação, direto no navegador.</p>
+      <!-- Botão "Jogar Agora" — pode adicionar link ou âncora -->
+      <a href="#jogos" class="btn btn-neon">
+        <i class="fa-solid fa-gamepad"></i> Jogar Agora
+      </a>
+    </div>
+    <!-- Partículas decorativas -->
+    <div class="particles" id="particles"></div>
+  </section>
+
+  <!-- ========== SEÇÃO DE JOGOS ========== -->
+  <section class="section" id="jogos">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Catálogo</span>
+        <h2>Escolha seu Jogo</h2>
+        <p>Clique em Jogar e divirta-se agora mesmo.</p>
+      </div>
+
+      <div class="games-grid">
+
+        <!--
+        =====================================================================
+          COMO ADICIONAR O LINK DE CADA JOGO:
+          Procure o atributo  href="#"  dentro de cada card de jogo abaixo.
+          Substitua o "#" pelo endereço completo do jogo, por exemplo:
+          href="https://meusite.com/jogoexemplo"
+
+          Para adicionar MAIS JOGOS: copie um bloco <article class="game-card">
+          e cole abaixo do último, alterando imagem, nome, descrição e link.
+        =====================================================================
+        -->
+
+        <!-- JOGO 1 -->
+        <article class="game-card">
+          <div class="card-img-wrap">
+            <!-- Substitua o src pela imagem de capa do jogo 1 -->
+            <img src="imgs/sapinho.png" alt="Jogo 1" loading="lazy" />
+       
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">sapinho jump</h3>
+            <p class="card-desc">parkur</p>
+            <!-- ▼ ADICIONE O LINK DO JOGO 1 AQUI ▼ -->
+            <a href="https://superb-blini-f25780.netlify.app/" class="btn btn-play" target="_blank" rel="noopener">
+              <i class="fa-solid fa-play"></i> Jogar
+            </a>
+          </div>
+        </article>
+
+        <!-- JOGO 2 -->
+        <article class="game-card">
+          <div class="card-img-wrap">
+            <img src="imgs/giovanna.png" alt="Jogo 2" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">NINJA</h3>
+            <p class="card-desc">um ninja que precisa recuperar sua espada sagrada</p>
+            <!-- ▼ ADICIONE O LINK DO JOGO 2 AQUI ▼ -->
+            <a href="https://stalwart-begonia-cb3516.netlify.app/" class="btn btn-play" target="_blank" rel="noopener">
+              <i class="fa-solid fa-play"></i> Jogar
+            </a>
+          </div>
+        </article>
+
+        <!-- JOGO 3 -->
+        <article class="game-card">
+          <div class="card-img-wrap">
+            <img src="imgs/eduardo.png" alt="Jogo 3" loading="lazy" />
+            <span class="card-badge badge-hot">Top</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">NETLANDS</h3>
+            <p class="card-desc">parkur</p>
+            <!-- ▼ ADICIONE O LINK DO JOGO 3 AQUI ▼ -->
+            <a href="https://rococo-frangollo-06f594.netlify.app/" class="btn btn-play" target="_blank" rel="noopener">
+              <i class="fa-solid fa-play"></i> Jogar
+            </a>
+          </div>
+        </article>
+
+        <!-- JOGO 4 -->
+        <article class="game-card">
+          <div class="card-img-wrap">
+            <img src="imgs/guilherme.png" alt="Jogo 4" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">tartaruga do cristal</h3>
+            <p class="card-desc">um jogo de parkur</p>
+            <!-- ▼ ADICIONE O LINK DO JOGO 4 AQUI ▼ -->
+            <a href="https://merry-treacle-727dc3.netlify.app " class="btn btn-play" target="_blank" rel="noopener">
+              <i class="fa-solid fa-play"></i> Jogar
+            </a>
+          </div>
+        </article>
+
+        <!-- JOGO 5 -->
+        <article class="game-card">
+          <div class="card-img-wrap">
+            <img src="imgs/diego.png" alt="Jogo 5" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">fanteiny</h3>
+            <p class="card-desc">um jogo de fantasia</p>
+            <!-- ▼ ADICIONE O LINK DO JOGO 5 AQUI ▼ -->
+            <a href="https://chimerical-shortbread-6ee684.netlify.app/" class="btn btn-play" target="_blank" rel="noopener">
+              <i class="fa-solid fa-play"></i> Jogar
+            </a>
+          </div>
+        </article>
+
+        <!-- JOGO 6 -->
+        <article class="game-card">
+          <div class="card-img-wrap">
+            <img src="imgs/yohan.png" alt="Jogo 6" loading="lazy" />
+            <span class="card-badge badge-new">legal</span>
+                        
+
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">cuby escape</h3>
+            <p class="card-desc">um jogo de fuga onde você é um bloco e precisa escapar </p>
+            <!-- ▼ ADICIONE O LINK DO JOGO 6 AQUI ▼ -->
+            <a href="https://coruscating-biscuit-1ff3af.netlify.app/" class="btn btn-play" target="_blank" rel="noopener">
+              <i class="fa-solid fa-play"></i> Jogar
+            </a>
+          </div>
+        </article>
+
+      </div><!-- /.games-grid -->
+    </div>
+  </section>
+
+  <!-- ========== SEÇÃO QR CODE ========== -->
+  <section class="section section-dark" id="qrcode">
+    <div class="container qr-inner">
+      <div class="qr-text">
+        <span class="tag">Mobile</span>
+        <h2>Acesse pelo Celular</h2>
+        <p>
+          Aponte a câmera do seu celular para o QR Code ao lado e acesse o
+          <strong>NetGames</strong> de onde estiver. Todos os jogos funcionam
+          diretamente no navegador mobile, sem precisar baixar nada.
+        </p>
+        <ul class="qr-list">
+          <li><i class="fa-solid fa-check"></i> Sem instalação</li>
+          <li><i class="fa-solid fa-check"></i> Funciona em iOS e Android</li>
+          <li><i class="fa-solid fa-check"></i> Sempre atualizado</li>
+        </ul>
+      </div>
+
+      <div class="qr-code-box">
+        <!--
+        =====================================================================
+          QR CODE:
+          1. Gere seu QR Code gratuito em: https://www.qr-code-generator.com
+             ou https://qrcode.tec-it.com
+          2. Aponte para o endereço do seu site (ex: https://netgames.com.br)
+          3. Baixe a imagem e coloque na mesma pasta do index.html
+          4. Substitua o src abaixo pelo nome do arquivo, ex: src="qrcode.png"
+        =====================================================================
+        -->
+        <div class="qr-placeholder">
+          <img
+            src="https://placehold.co/200x200/0a0a1a/00d4ff?text=QR+Code"
+            alt="QR Code NetGames"
+            class="qr-img"
+          />
+          <p class="qr-hint">Substitua pela imagem do seu QR Code</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SEÇÃO DE SUGESTÕES ========== -->
+  <section class="section" id="sugestoes">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Fale Conosco</span>
+        <h2>Mande sua Sugestão</h2>
+        <p>Quer ver um jogo aqui? Encontrou algum problema? Nos conte!</p>
+      </div>
+
+      <div class="form-wrapper">
+        <!--
+        =====================================================================
+          FORMULÁRIO — FormSubmit (gratuito, sem backend):
+          1. Substitua "SEU_EMAIL@exemplo.com" pelo seu e-mail real na linha
+             action do <form> abaixo.
+          2. No primeiro envio, o FormSubmit enviará um e-mail de confirmação
+             para ativar o formulário. Confirme e pronto!
+          3. Documentação completa: https://formsubmit.co
+        =====================================================================
+        -->
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/el/zunita"
+          method="POST"
+          id="form-sugestao"
+        >
+
+          <button type="submit" class="btn btn-neon btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Enviar Sugestão
+          </button>
+
+          <!-- Mensagem de feedback (controlada pelo script.js) -->
+          <p class="form-msg" id="form-msg"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+
+      <div class="footer-logo">
+        <span class="logo-net">Net</span><span class="logo-games">Games</span>
+        <p>Seu portal de jogos online favorito.</p>
+      </div>
+
+      <!-- Redes Sociais -->
+      <div class="footer-social">
+        <p>Nos siga:</p>
+        <div class="social-links">
+          <!--
+          =====================================================================
+            REDES SOCIAIS:
+            Substitua o "#" pelo link do seu perfil em cada rede social.
+            Para remover uma rede, apague o <a> correspondente.
+          =====================================================================
+          -->
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="Discord" target="_blank" rel="noopener"><i class="fa-brands fa-discord"></i></a>
+          <a href="#" aria-label="X / Twitter" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Barra de copyright — ano é inserido automaticamente pelo script.js -->
+    <div class="footer-bar">
+      <p>&copy; <span id="ano"></span> NetGames. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
